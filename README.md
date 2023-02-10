@@ -1,5 +1,6 @@
 
-# Google Assistant TTS for Home Assistant
+# digitalloggers custom component for Home 
+Assistant
 
 This is a custom component bring back the deprecated 
 digitalloggers component
