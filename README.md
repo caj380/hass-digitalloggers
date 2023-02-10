@@ -1,9 +1,7 @@
 
-# digitalloggers custom component for Home 
-Assistant
+# digitalloggers custom component for Home Assistant
 
-This is a custom component bring back the deprecated 
-digitalloggers component
+This is a custom component bring back the deprecated digitalloggers component
 
 
 ## Installation
@@ -14,5 +12,9 @@ You can also copy `custom_components/digitalloggers` to your `custom_components`
 ## Example `switch` entry in your `configuration.yaml`
 
     # DLI Switch:
-      - platform: digitalloggers
-        host: "192.168.1.43"
+      switch:
+        - platform: digitalloggers
+          host: "192.168.1.43"
+          username: admin
+          password: admin
+    
